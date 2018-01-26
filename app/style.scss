@@ -12,12 +12,13 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
+  background: black;
 
   div {
     position: absolute;
     width: 1px;
     height: 1px;
-    background: blue;
+    background: white;
     top: 0;
     left: 0;
   }
