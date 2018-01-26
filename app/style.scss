@@ -1,0 +1,24 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.icebox {
+  border: 2px solid purple;
+  margin: 20px auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+  div {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: blue;
+    top: 0;
+    left: 0;
+  }
+}
